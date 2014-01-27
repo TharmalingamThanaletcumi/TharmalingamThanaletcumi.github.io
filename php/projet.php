@@ -7,6 +7,7 @@
 <body bgcolor="#15a2e8">
 <p align="center">
 <?php
+include("../index.html");
 $pj= $_GET['projet'];
 if ($pj=="1"){
 	echo"<img src='../images/mission1.JPG' alt='mission1' data-description='Questionnaire '/><p> Bonjour c'est mon premiere projet </p><a href='../pdf/mission1.pdf'>Plus de l'explication sur mon mission 1</a>";
